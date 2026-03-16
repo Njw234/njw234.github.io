@@ -1,0 +1,34 @@
+[
+    {
+        "title": "UE5 Top Down Survival Shooter",
+        "summary": "Implemented several user interface widgets, including score counter, win screen, lose screen, and timers for powerups. Also programmed various Blueprint classes.",
+        "image": "Assets/img/placeholder-1.svg",
+        "category": "game-dev",
+        "tags": ["Unreal Engine", "C++", "Blueprints"],
+        "links": [
+            {"label": "Repo", "url": "https://github.com/cltrujillo17/Project_Nebula"}
+        ]
+    },
+    {
+        "title": "Jumper Hunter Ducker",
+        "summary": "A mashup of classic games built in one week by a team of three. An early demo showcasing gameplay mechanics inspired by retro titles.",
+        "image": "Assets/img/Jumper Hunter Ducker.png",
+        "category": "game-dev",
+        "tags": ["Unity", "C#", "2D Games"],
+        "links": [
+            {"label": "Repo", "url": "https://github.com/korbinnevius/ShroomJam2025"},
+            {"label": "Play Demo", "url": "https://njw234.itch.io/jumper-hunter-ducker"}
+        ]
+    },
+    {
+        "title": "Agents of Influence - UI/UX Design",
+        "summary": "Designed onboarding prototypes and improved lesson-plan flows in Figma.",
+        "image": "Assets/img/AOI.png",
+        "category": "ui-ux",
+        "tags": ["Figma", "Prototyping", "User Flows"],
+        "links": [
+            {"label": "Figma", "url": "https://www.figma.com/design/ciRJZHBAbervxMhVSWqpdp/AOI-Teacher-Onboarding?node-id=0-1&p=f&t=ycwjVzpv4scV6Grr-0"},
+            {"label": "Case Study", "url": "Aoi Case Study.html"}
+        ]
+    }
+]

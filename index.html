@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nick Williams - Software || Game Developer || UI/UX</title>
+
+    <link rel="stylesheet" href="Assets/css/styles.css">
+    <script defer src="Assets/js/app.js"></script>
+</head>
+
+<body>
+    <header class = "container header">
+            <nav class = "nav">
+             <a href ="#projects">Projects</a>
+             <a href="#skills">skills</a>
+             <a href="#about">About</a>
+             <a class="btn ghost" href="#contact">Contact</a>
+            </nav>
+     </header>
+
+     <main id="top">
+
+        <section class="container hero">
+            <div>
+                <h1>Nick Williams</h1>
+        <p class="lead">I build <strong>software</strong>, craft <strong>games</strong>, and design clean <strong>UI/UX</strong>.</p>
+            <div class="hero-actions">
+  <a class="btn ghost" href="#projects">View projects</a>
+  <a class="btn ghost" target="_blank" rel="noopener" href="https://github.com/njw234">GitHub</a>
+  <a class="btn ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/in/nick-williams-18800b324/">LinkedIn</a>
+</div>
+
+
+            <ul class="chips">
+                <li>C++</li><li>Python</li><li>Unreal Engine 5</li><li>Unity</li><li>Figma</li><li>Git</li>
+            </ul>
+         </div>
+         <div class="hero-card">
+            <h2> Hiring snapshot</h2>
+        <p>UE5 systems (AI, UI, gameplay), CS coursework projects, and UX case studies.</p>
+        <p class="muted">Open to internships and entry-level roles.</p>
+
+         </div>
+        </section>
+
+        <!-- PROJECTS-->
+         <section id="projects" class = "container section">
+            <div class="section-head">
+                <h2>Projects</h2>
+
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="software">Software</button>
+                    <button class="filter-btn" data-filter="game-dev">Game Dev</button>
+                    <button class="filter-btn" data-filter="ui-ux">UI/UX</button>
+                    
+                </div>
+            </div>
+
+            <div id="projectGrid" class="grid"></div>
+         </section>
+
+         <!-- SKILLS -->
+          <section id="skills" class="container section">
+            <h2>Skills</h2>
+            <div class="skills">
+            <div class="skill-col">
+                <h3>Software</h3>
+                <ul>
+                    <li>C++</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Git & GitHub</li>
+                    <li>Agile Methodologies</li>
+                </ul>
+            </div>
+            <div class="skill-col">
+                <h3>Game Development</h3>
+                <ul>
+                    <li>Unreal Engine 5</li>
+                    <li>Unity</li>
+                    <li>Blueprint Scripting</li>
+                    <li>Gameplay Mechanics</li>
+                    <li>Game Scripting</li>
+                </ul>
+            </div>
+            <div class="skill-col">
+                <h3>UI/UX Design</h3>
+                <ul>
+                    <li>Figma prototypes and flows</li>
+                    <li>User feedback analysis</li>
+                    <li>User Research</li>
+                    <li>Wireframing & Prototyping</li>
+                    <li>Usability Testing</li>
+                </ul>
+            </div>
+            </div>
+          </section>
+
+            <!-- ABOUT -->
+            <section id="about" class="container section">
+                <h2> About</h2>
+                <p>
+                    I'm Nick Williams, a Computer Science student with a focused passion on building interactive systems and clean user interfaces.
+                    I care about polish, performance, and user experience in every project I undertake.
+                    My goal is to create software and games that are not only functional but also engaging and intuitive for users.
+                    I'm excited to contribute my skills and creativity to innovative projects in the tech industry.
+                </p>
+            </section>
+
+            <!-- CONTACT -->
+        <section id="contact" class="container section">
+    <h2>Contact</h2>
+    <p class="muted">
+        Fastest reach:
+        <a href="mailto:njw23456@gmail.com">njw23456@gmail.com</a>
+    </p>
+
+    <form class="contact" action="mailto:njw23456@gmail.com" method="post" enctype="text/plain">
+        <label>
+            Name
+            <input type="text" name="name" placeholder="Your name">
+        </label>
+
+        <label>
+            Email
+            <input type="email" name="email" placeholder="Your email">
+        </label>
+
+        <label>
+            Message
+            <textarea name="message" placeholder="Your message"></textarea>
+        </label>
+
+        <button type="submit" class="btn ghost">Send Message</button>
+    </form>
+</section>
+     </main>
+
+       <footer class="container footer">
+    <span>© <span id="year"></span> Nick Williams</span>
+    <div class="footer-links">
+      <a target="_blank" rel="noopener" href="https://github.com/njw234">GitHub</a>
+      <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/nick-williams-18800b324/">LinkedIn</a>
+    </div>
+  </footer>
+</body>
+</html>
+
